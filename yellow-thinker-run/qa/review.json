@@ -538,7 +538,82 @@
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 26172,
+          "nontransparent_pixels": 27433,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 302
+        },
+        {
+          "index": 1,
+          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 27142,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 281
+        },
+        {
+          "index": 2,
+          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26953,
+          "bbox": [
+            13,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 276
+        },
+        {
+          "index": 3,
+          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 26654,
+          "bbox": [
+            13,
+            5,
+            178,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 281
+        },
+        {
+          "index": 4,
+          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 27158,
+          "bbox": [
+            12,
+            5,
+            179,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 234
+        },
+        {
+          "index": 5,
+          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 27231,
           "bbox": [
             12,
             5,
@@ -546,112 +621,37 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 303
-        },
-        {
-          "index": 1,
-          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\01.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 26806,
-          "bbox": [
-            9,
-            5,
-            182,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 218
-        },
-        {
-          "index": 2,
-          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 27038,
-          "bbox": [
-            6,
-            5,
-            186,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 252
-        },
-        {
-          "index": 3,
-          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 26378,
-          "bbox": [
-            5,
-            9,
-            187,
-            199
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 202
-        },
-        {
-          "index": 4,
-          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 28254,
-          "bbox": [
-            5,
-            5,
-            187,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 333
-        },
-        {
-          "index": 5,
-          "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 27640,
-          "bbox": [
-            5,
-            5,
-            186,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 199
+          "chroma_adjacent_pixels": 326
         },
         {
           "index": 6,
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 26726,
+          "nontransparent_pixels": 27120,
           "bbox": [
+            12,
             5,
-            9,
-            187,
-            198
+            179,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 219
+          "chroma_adjacent_pixels": 290
         },
         {
           "index": 7,
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\failed\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 27205,
+          "nontransparent_pixels": 26967,
           "bbox": [
-            5,
             13,
-            187,
-            195
+            5,
+            179,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 253
+          "chroma_adjacent_pixels": 330
         }
       ]
     },

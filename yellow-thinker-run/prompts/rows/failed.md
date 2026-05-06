@@ -15,13 +15,16 @@ Style contract: Codex digital pet sprite style: pixel-art-adjacent low-resolutio
 
 Use this prompt as an authoritative sprite-production spec. Do not expand it into a polished illustration, painterly character image, anime key art, 3D render, vector mascot, glossy app icon, realistic animal portrait, or marketing artwork.
 
-Animation action: sad, failed, or deflated reaction.
+Animation action: panic-fail reaction based on a hands-on-head shocked pose.
 
 
 State-specific requirements:
-- Show failure through slumped pose, drooping ears/limbs, closed or sad eyes, and lower body position.
-- Tears, small smoke puffs, or tiny stars are allowed only if attached to or overlapping the pet silhouette and kept inside the same frame slot.
-- Do not draw red X marks, floating symbols, detached stars, separated smoke clouds, falling tear drops, dust, or other loose effects.
+- Match the reference mood: both paws placed on the top sides of the head in all frames, with a shocked open "O" mouth.
+- Keep the body upright and centered; failed emotion comes from panic, not sleepy slumping.
+- Use subtle frame-to-frame motion (small head wobble, mouth/eye variation) while preserving the same pose family.
+- Keep eyes normal (no X eyes) and maintain the same pet identity.
+- Optional tiny attached distress accents are allowed only if touching/overlapping the pet silhouette and staying inside the frame slot.
+- Do not draw detached symbols, detached stars, separated smoke clouds, falling tear drops, or floating punctuation.
 
 Transparency and artifact rules:
 - Prefer pose, expression, and silhouette changes over decorative effects.

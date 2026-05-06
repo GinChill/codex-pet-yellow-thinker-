@@ -293,56 +293,56 @@
       "row": 5,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 26172
+      "nontransparent_pixels": 27433
     },
     {
       "state": "failed",
       "row": 5,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 26806
+      "nontransparent_pixels": 27142
     },
     {
       "state": "failed",
       "row": 5,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 27038
+      "nontransparent_pixels": 26953
     },
     {
       "state": "failed",
       "row": 5,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 26378
+      "nontransparent_pixels": 26654
     },
     {
       "state": "failed",
       "row": 5,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 28254
+      "nontransparent_pixels": 27158
     },
     {
       "state": "failed",
       "row": 5,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 27640
+      "nontransparent_pixels": 27231
     },
     {
       "state": "failed",
       "row": 5,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 26726
+      "nontransparent_pixels": 27120
     },
     {
       "state": "failed",
       "row": 5,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 27205
+      "nontransparent_pixels": 26967
     },
     {
       "state": "waiting",
