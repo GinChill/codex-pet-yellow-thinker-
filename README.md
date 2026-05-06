@@ -1,74 +1,77 @@
-# Codex Pet: Yellow Thinker (奶蛙 / Naifrog Variant)
+# Yellow Thinker Pet (奶蛙版)
 
-这是一个基于 Codex `hatch-pet` 流程制作的自定义宠物项目。  
-角色是社区流行“奶龙变种奶蛙”风格的 `Yellow Thinker`，已完成可导入包产物。
+一只会思考、会摸鱼、会庆祝、也会崩溃和睡觉的 Codex 桌宠。  
+这个项目把社区常见“奶龙变种奶蛙”气质做成了可直接导入 Codex 的宠物包。
 
-## Project Highlights
+## 这是什么
 
-- 使用 `hatch-pet` 标准流程生成与封装
-- 输出符合 Codex pet 规范的 `spritesheet.webp + pet.json`
-- 已完成“严格语义映射”版本状态调整
-- 已推送到 GitHub 仓库用于持续迭代
+这是一个完整的 `hatch-pet` 产物仓库，包含：
 
-## Repository Structure
+- 生成提示词（prompts）
+- 各状态行图与拆帧（decoded / frames）
+- 最终图集（final/spritesheet.webp）
+- 可直接安装包（package/pet.json + package/spritesheet.webp）
 
-主要内容在 `yellow-thinker-run/`：
+如果你也想做自己的宠物，这个仓库可以直接当模板参考。
 
-- `prompts/`：每个状态行的生成提示词
-- `decoded/`：各状态原始行图
-- `frames/`：拆帧结果
-- `final/`：最终图集与验证结果
-- `qa/`：联系表与质检结果
-- `package/`：可分发宠物包（`pet.json` + `spritesheet.webp`）
-- `imagegen-jobs.json`：生成任务与溯源记录
-- `pet_request.json`：宠物请求配置
+## 状态预览
 
-## Strict State Mapping (当前版本)
+Codex 实际使用固定状态键名，我们做了语义一一对应：
 
-Codex 内部状态名与语义映射如下：
+### `idle`（待机）
+![idle](yellow-thinker-run/frames/idle/00.png)
 
-- `idle` -> 待机
-- `review` -> 思考（thinking）
-- `running` -> 工作（working）
-- `jumping` -> 成功庆祝（success）
-- `failed` -> 错误/崩溃（error）
-- `waiting` -> 睡眠（sleeping）
+### `review`（思考 / thinking）
+![thinking](yellow-thinker-run/frames/review/00.png)
 
-说明：Codex 引擎使用固定状态键（如 `review/jumping/waiting`），本项目通过提示词将其语义严格对齐到目标人格状态。
+### `running`（工作 / working）
+![working](yellow-thinker-run/frames/running/00.png)
 
-## Final Artifacts
+### `jumping`（成功 / success）
+![success](yellow-thinker-run/frames/jumping/00.png)
 
-可直接使用的核心文件：
+### `failed`（报错 / error）
+![error](yellow-thinker-run/frames/failed/00.png)
 
-- `yellow-thinker-run/final/spritesheet.webp`
+### `waiting`（睡觉 / sleeping）
+![sleeping](yellow-thinker-run/frames/waiting/00.png)
+
+也可以直接看总览图：
+
+![contact-sheet](yellow-thinker-run/qa/contact-sheet.png)
+
+## 怎么用
+
+把下面两个文件放到本地 Codex 宠物目录（例如 `~/.codex/pets/yellow-thinker/`）：
+
 - `yellow-thinker-run/package/pet.json`
 - `yellow-thinker-run/package/spritesheet.webp`
 
-## Install to Local Codex Pets
+然后在 Codex 里切换到这个宠物即可。
 
-将打包产物复制到本地 pets 目录，例如：
+## 仓库结构
 
-`~/.codex/pets/yellow-thinker/`
+主要内容都在 `yellow-thinker-run/`：
 
-目录中需要同时包含：
+- `prompts/rows/*.md`：每个状态的生成约束
+- `decoded/`：状态行图
+- `frames/`：拆帧后的单帧 png
+- `final/`：最终图集与校验结果
+- `qa/`：质检结果与联系表
+- `package/`：可分发宠物包
 
-- `pet.json`
-- `spritesheet.webp`
+## 复现流程（简版）
 
-## Rebuild Workflow (hatch-pet)
+1. 用 `prepare_pet_run.py` 初始化 run 目录
+2. 用 imagegen 逐状态生成并 `record_imagegen_result.py` 录入
+3. `finalize_pet_run.py` 合成最终图集
+4. `package_custom_pet.py` 打包产出
 
-1. 准备 run 目录与任务清单（`prepare_pet_run.py`）
-2. 生成并记录 base / rows（`record_imagegen_result.py`）
-3. 需要时修复指定状态行（重生单行）
-4. 终稿组装（`finalize_pet_run.py`）
-5. 打包（`package_custom_pet.py`）
+## 已知说明
 
-## Known Notes
+- 某些 Windows 环境下，预览视频步骤可能报临时目录权限错误（`WinError 5`），但不影响宠物包使用。
+- “宠物是否总在最上层”是 Codex App 窗口层级行为，不由素材文件本身决定。
 
-- 在部分 Windows 环境，`finalize_pet_run.py` 的视频预览步骤可能因系统临时目录权限失败（`WinError 5`），但不影响最终宠物包使用。
-- “是否始终置顶”属于 Codex App 窗口层级行为，不由 `pet.json/spritesheet` 决定。
+---
 
-## Credits
-
-- Character direction: 社区奶龙变种奶蛙风格（Yellow Thinker）
-- Pipeline: Codex `hatch-pet` skill + image generation workflow
+如果你喜欢这只奶蛙，欢迎继续二创：换配色、换表情、换动作，整活空间很大。
