@@ -15,19 +15,15 @@ Style contract: Codex digital pet sprite style: pixel-art-adjacent low-resolutio
 
 Use this prompt as an authoritative sprite-production spec. Do not expand it into a polished illustration, painterly character image, anime key art, 3D render, vector mascot, glossy app icon, realistic animal portrait, or marketing artwork.
 
-Animation action: success celebration loop with joyful bounce.
-
-State-specific requirements:
-- Read as celebration/success in every frame: happy face, raised paws, upbeat body language.
-- Keep the jump arc simple and readable; emotion should be "I did it", not generic locomotion.
-- Tiny attached celebratory accents are allowed only if touching/overlapping the pet silhouette.
-- Do not depict fear, pain, failure, or neutral idle mood.
+Animation action: smug-happy success loop based on a confident pose.
 
 
 State-specific requirements:
-- Show the jump through pose and vertical body position only: anticipation, lift, airborne peak, descent, settle.
-- Do not draw ground shadows, contact shadows, drop shadows, oval shadows, landing marks, dust, smears, bounce pads, or motion marks under the pet.
-- Keep the background outside the pet perfectly flat chroma key with no darker key-colored patches.
+- Match the reference mood: confident and happy, with a slightly smug face and one paw resting near the belly/hip area.
+- Keep the body mostly grounded and stable instead of big vertical jump arcs.
+- Use subtle celebration motion (small torso sway, eye/mouth variation, tiny posture shifts), not explosive jumping.
+- Emotion should read "mission accomplished" rather than panic or neutral idle.
+- Do not depict fear, pain, failure, or sleepy mood.
 
 Transparency and artifact rules:
 - Prefer pose, expression, and silhouette changes over decorative effects.
