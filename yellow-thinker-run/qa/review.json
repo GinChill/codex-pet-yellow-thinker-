@@ -452,75 +452,75 @@
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\jumping\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22791,
+          "nontransparent_pixels": 22337,
           "bbox": [
-            18,
+            20,
             5,
-            173,
+            172,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 127
+          "chroma_adjacent_pixels": 109
         },
         {
           "index": 1,
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\jumping\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22602,
+          "nontransparent_pixels": 22273,
           "bbox": [
-            19,
+            20,
             5,
-            173,
+            171,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 123
+          "chroma_adjacent_pixels": 98
         },
         {
           "index": 2,
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\jumping\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22509,
+          "nontransparent_pixels": 22341,
           "bbox": [
-            19,
+            20,
             5,
-            173,
+            171,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 162
+          "chroma_adjacent_pixels": 108
         },
         {
           "index": 3,
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\jumping\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22510,
+          "nontransparent_pixels": 22290,
           "bbox": [
-            19,
+            20,
             5,
-            173,
+            171,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 112
+          "chroma_adjacent_pixels": 135
         },
         {
           "index": 4,
           "file": "C:\\Users\\32804\\Documents\\Playground\\yellow-thinker-run\\frames\\jumping\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22599,
+          "nontransparent_pixels": 22381,
           "bbox": [
-            19,
+            20,
             5,
-            173,
+            172,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 138
+          "chroma_adjacent_pixels": 100
         }
       ]
     },

@@ -17,6 +17,11 @@ Use this prompt as an authoritative sprite-production spec. Do not expand it int
 
 Animation action: smug-happy success loop based on a confident pose.
 
+Palette lock:
+- Match the canonical base pet palette exactly for yellow body, belly cream tone, green eyes, and outline darkness.
+- Do not brighten, wash out, or desaturate the yellow body relative to the canonical base.
+- Keep contrast and shading depth consistent with other rows (especially idle/review/failed).
+
 
 State-specific requirements:
 - Match the reference mood: confident and happy, with a slightly smug face and one paw resting near the belly/hip area.
